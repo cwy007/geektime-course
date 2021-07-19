@@ -46,3 +46,25 @@ CopyWebpackPlugin
 HtmlWebpackPlugin
 UglifyjsWebpackPlugin
 ZipWebpackPlugin
+数组
+
+mode
+当前打包的环境
+production development none
+触发 webpack 内置的函数
+触发插件的功能
+process.env.NODE_ENV
+NamedChunksPlugin
+NamedModulesPlugin
+HMR
+
+production
+process.env.NODE_ENV
+FlagDependencyUsagePlugin
+FlagIncludedChunksPlugin
+ModuleConcatenationPlugin
+NoEmitOnErrorsPlugin
+OccurrenceOrderPlugin
+SideEffectsFlagPlugin
+TerserPlugin
+none 不开启任何优化选项
