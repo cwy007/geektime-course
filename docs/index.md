@@ -36,3 +36,13 @@ test 匹配规则
 use 使用的loader的名称
 
 plugins
+增强webpack的功能
+手动删除目录
+作用于整个构建构成
+CommmonsChunkPlugin
+CleanWebpackPlugin
+ExtractTextWebpackPlugin
+CopyWebpackPlugin
+HtmlWebpackPlugin
+UglifyjsWebpackPlugin
+ZipWebpackPlugin
