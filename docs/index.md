@@ -68,3 +68,15 @@ OccurrenceOrderPlugin
 SideEffectsFlagPlugin
 TerserPlugin
 none 不开启任何优化选项
+
+解析
+js jsx css 图片 字体 资源
+
+解析 es6
+babel-loader
+.babelrc
+匹配文件，然后，对文件进行解析
+plugin 对应一个功能
+preset plugin 的集合
+
+react babel preset 配置
