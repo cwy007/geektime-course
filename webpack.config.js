@@ -5,7 +5,7 @@ const path = require('path');
 module.exports = {
   entry: {
     index: "./src/index.js",
-    search: './src/search.js'
+    search: "./src/search.js",
   },
   output: {
     path: path.join(__dirname, "dist"),
@@ -16,8 +16,16 @@ module.exports = {
     rules: [
       {
         test: /.js$/,
-        use: 'babel-loader',
+        use: "babel-loader",
       },
-    ]
-  }
+      {
+        test: /.css$/,
+        use: ["style-loader", "css-loader"],
+      },
+      {
+        test: /.less$/,
+        use: ["style-loader", "css-loader", "less-loader"],
+      },
+    ],
+  },
 };
