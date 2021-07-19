@@ -1,1 +1,7 @@
 node_modules/
+dist/
+
+# except for .gitkeep
+!.gitkeep
+# ignore TODO file in root directory,not subdir/TODO
+/TODO
